@@ -8,7 +8,7 @@
 
 body{
     background-color: rgb(159, 179, 235);
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +22,7 @@ body{
 }
 
 .flex-container-main{
-    display: flex;
+    
     flex-wrap: wrap;
     margin: 20px;
     justify-content: space-between;
@@ -61,7 +61,7 @@ body{
 }
 
 .flex-container-content{
-    display: flex;
+   
     flex: 1;
     justify-content:center;
     margin: 50px;
@@ -76,7 +76,7 @@ h1{
 }
  p{
     font-size:large;
-    display: flex;
+    text-align: justify;
     flex: 1;
     line-height: 1.6;
     font-family: "Josefin Sans";
@@ -85,7 +85,7 @@ h1{
     
 }
 .flex-container-image{
-    display: flex;
+   
     height: 50vh;
     position: relative;
     flex: 2;

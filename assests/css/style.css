@@ -129,7 +129,7 @@ h1{
     .flex-container-image img{
         order: 1;
         height: 30vh;
-        max-width: 300px;
+        max-width: 200px;
         
     }
     .box1 , .box2{
@@ -161,9 +161,10 @@ h1{
         text-align: justify;
     }
     .flex-container-image img{
-        max-width:500px;
+        max-width:250px;
         height:50vh;
         margin-top: 10px;
+        justify-items: center;
     }
     .box1 , .box2{
         width: 30px;
